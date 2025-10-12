@@ -128,11 +128,11 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="boarding"
+        name="profile"
         options={{
-          title: "Boarding",
+          title: "Profile",
           tabBarIcon: ({ focused }) => (
-            <BubbleTabIcon isFocused={focused} label="Boarding" iconName="bar-chart" />
+            <BubbleTabIcon isFocused={focused} label="Profile" iconName="bar-chart" />
           ),
         }}
       />
