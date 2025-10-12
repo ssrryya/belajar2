@@ -9,6 +9,10 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    ```bash
    npm install
    ```
+![Gambar WhatsApp 2025-10-12 pukul 20 33 49_7effc2dc](https://github.com/user-attachments/assets/1156e4e7-15c4-4eda-b240-79c408a99373)
+![Gambar WhatsApp 2025-10-12 pukul 20 33 48_a823618a](https://github.com/user-attachments/assets/2008eb1a-8566-49f9-b943-2945a5bfa845)
+![Gambar WhatsApp 2025-10-12 pukul 20 33 48_347bd835](https://github.com/user-attachments/assets/147d2e8c-f8e7-467b-9743-b2c650dc4e95)
+![Gambar WhatsApp 2025-10-12 pukul 20 33 49_98400a45](https://github.com/user-attachments/assets/a8cc0fe2-2e2a-4e2f-af26-83d8006f3f41)
 
 2. Start the app
 
