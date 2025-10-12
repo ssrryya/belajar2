@@ -5,6 +5,7 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 ## Get started
 
 1. Install dependencies
+![Gambar WhatsApp 2025-10-12 pukul 20 33 48_3a562013](https://github.com/user-attachments/assets/7b1cc301-298c-4f11-a9c4-f02937851396)
 
    ```bash
    npm install
@@ -43,8 +44,11 @@ To learn more about developing your project with Expo, look at the following res
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
 ## Join the community
+![Gambar WhatsApp 2025-10-12 pukul 20 33 48_b7e41e94](https://github.com/user-attachments/assets/fb0b5815-a14c-4810-90a2-447f7f944333)
 
-Join our community of developers creating universal apps.
+Join our community of developers creating universal apps.![Gambar WhatsApp 2025-10-12 pukul 20 33 49_a013b321](https://github.com/user-attachments/assets/719477a8-d4ce-49ff-96ce-bd36b01907a4)![Gambar WhatsApp 2025-10-12 pukul 20 33 49_dc7c8ffa](https://github.com/user-attachments/assets/4f574bc3-2e23-4479-935e-22b3c47373ea)
+
+
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
