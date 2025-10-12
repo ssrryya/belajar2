@@ -44,7 +44,7 @@ To learn more about developing your project with Expo, look at the following res
 
 
 
-Join our community of developers creating universal apps.![Gambar WhatsApp 2025-10-12 pukul 20 33 49_a013b321](https://github.com/user-attachments/assets/719477a8-d4ce-49ff-96ce-bd36b01907a4)![Gambar WhatsApp 2025-10-12 pukul 20 33 49_dc7c8ffa](https://github.com/user-attachments/assets/4f574bc3-2e23-4479-935e-22b3c47373ea)
+
 
 
 
