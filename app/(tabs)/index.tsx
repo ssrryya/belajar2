@@ -1,6 +1,6 @@
 
 import React from "react";
-import {View, Text, Image, TextInput, TouchableOpacity, StatusBar, FlatList,} from "react-native";
+import {View, Text, Image, TextInput, TouchableOpacity, FlatList,} from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons, Feather } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
@@ -78,22 +78,14 @@ export default function HomeScreen() {
         <View className=" p-6 flex-1 justify-between">
           <View>
             <Text className="text-white text-sm">4 Dec 2024</Text>
-          <Text className="text-white text-lg font-semibold mt-2">
+            <Text className="text-white text-lg font-semibold mt-2">
             Sales Revenue Grows by{" "}
             <Text className="text-green-400">5.9% </Text>
              <Text className="text-white text-lg font-semibold mt-2"> in One Week.</Text>
           </Text>
           </View>
           
-          {/* <TouchableOpacity className="mt-4 overflow-hidden rounded-xl px-3 py-2 self-start">
-             <BlurView
-            blurType="light"
-            blurAmount={10}
-            reducedTransparencyFallbackColor="white"
-            className="absolute inset-0"/> 
-            <Text className="text-blue-600 font-semibold">See Statistic</Text>
-          </TouchableOpacity> */}
-            <ButtonIcon title="see" onPress={() => (console.log("cihuyyyy"))}/>
+          <ButtonIcon title="see" onPress={() => (console.log("cihuyyyy"))}/>
         </View>
          </LinearGradient>
       );

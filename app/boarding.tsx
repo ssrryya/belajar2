@@ -7,82 +7,29 @@ import { router } from "expo-router";
 export default function Boarding() {
   return (
     <SafeAreaView className="flex-1">
-      {/* <LinearGradient
-        colors={["#3B82F6", "#22D3EE"]}
+      <LinearGradient
+        colors={['#1E90FF', '#00CED1']}
         className="flex-1"
         start={{ x: 0, y: 0 }}
-        end={{ x: 0, y: 0.6 }}
+            end={{ x: 0, y: 0.6 }}
       >
 
-        <View className="flex-1 items-center justify-center px-6">
-          <Text className="text-white text-base font-semibold mb-2">Poskita</Text>
-          <Text className="text-white text-2xl font-bold">Grow Your Business</Text>
-
-          <View className="item-center justify-center">
-              <Image
-              source={require("../../assets/images/nguwawor-removebg-preview.png")}
-              className="w-60 h-80 bg-transparent"
-              resizeMode="contain"
-              blurRadius={15}
-              style={[StyleSheet.absoluteFillObject, { height: "60%", bottom: 0 }]}
-            /> 
-
-            <LinearGradient
-            colors={["transparent", "white"]}
-            style={[StyleSheet.absoluteFillObject, { height: "60%", bottom: 0 }]}
-            />
-
-            <Image
-            source={require("../../assets/images/nguwawor-removebg-preview.png")}
-            className="w-60 h-80"
-            resizeMode="contain"/>
-          </View>
-
-          <Text className="text-center text-white text-sm mt-6 leading-5">
-            Effortlessly manage sales, track inventory, and streamline operations
-            with POSKITA—your trusted partner for business growth!
-          </Text>
-        </View>
-
-        <View className="flex-row justify-between items-center px-6 mb-8">
-          <TouchableOpacity className="px-20 py-4 rounded-full">
-            <Text className="text-white text-base font-medium">Skip</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity className="bg-white px-20 py-4 rounded-full"
-            onPress={() => router.push("/(tabs)/explore")}
-            activeOpacity={0.7}>
-            <Text className="text-black text-base font-semibold">Next</Text>
-          </TouchableOpacity>
-        </View>
-      </LinearGradient> */}
-      <LinearGradient
-  colors={['#1E90FF', '#00CED1']} // blue -> cyan/greenish blue
-  className="flex-1"
-  start={{ x: 0, y: 0 }}
-        end={{ x: 0, y: 0.6 }}
->
-
-  <StatusBar barStyle={"light-content"} backgroundColor={'#1E90FF'}/>
+    <StatusBar barStyle={"light-content"} backgroundColor={'#1E90FF'}/>
 
   <View className="flex-1 items-center justify-center px-5">
     <Text className="text-white text-base font-semibold mb-2">Poskita</Text>
           <Text className="text-white text-2xl font-bold">Grow Your Business</Text>
 
-    {/* CONTAINER FOR IMAGE AND FADE GRADIENT */}
     <View className="w-64 h-80 mb-6">
       <Image
         source={require('@/assets/images/nguwawor-removebg-preview.png')}
-        className="w-60 h-80" // Use w-full h-full to fill the container
+        className="w-60 h-80"
         resizeMode="contain"
       />
-      {/* THE FADE GRADIENT LAYER */}
       <LinearGradient
-        // Fade from fully transparent to the background color (which is #00CED1 at the bottom)
         colors={['transparent', '#00CED1']}
-        // Adjust the start/end points to control how much of the image is covered by the fade
-        
-        className="absolute bottom-0 w-full h-24" // Position over the bottom third of the image
+
+        className="absolute bottom-0 w-full h-24"
       />
     </View>
 
@@ -103,7 +50,7 @@ export default function Boarding() {
           </TouchableOpacity>
         </View>
   </View>
-</LinearGradient>
-    </SafeAreaView>
+    </LinearGradient>
+      </SafeAreaView>
   );
 }

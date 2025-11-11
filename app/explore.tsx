@@ -63,9 +63,7 @@ export default function VerifyEmailScreen() {
         <TouchableOpacity
           activeOpacity={0.85}
           className="w-full bg-[#3651d9] py-4 rounded-full justify-center items-center mb-6"
-          onPress={() => router.push("/verivy")}
-
-        >
+          onPress={() => router.push("/verivy")}>
           <Text className="text-white text-base font-medium">Continue</Text>
         </TouchableOpacity>
       </View>

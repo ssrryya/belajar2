@@ -25,11 +25,10 @@ export default function RootLayout() {
     // </ThemeProvider>
 
     <GestureHandlerRootView>
-
-    <SafeAreaProvider>
-      <Stack
-      screenOptions={{headerShown: false}}/>
-    </SafeAreaProvider>
-        </GestureHandlerRootView>
+      <SafeAreaProvider>
+        <Stack
+        screenOptions={{headerShown: false}}/>
+      </SafeAreaProvider>
+    </GestureHandlerRootView>
   );
 }
